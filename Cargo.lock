@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "task6"
+name = "gradebook"
 version = "0.1.0"

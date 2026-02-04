@@ -21,10 +21,11 @@
 // * Implement a DisplayStats trait for reporting functionality. YES
 // * Use lifetimes when borrowing student data for reports.    😒
 // * Consider using vectors to store multiple grades per student. YES
+// * custom error
 
 use std::{collections::HashMap, io::stdin};
-use task6::helper::*;
-use task6::types::*;
+use gradebook::helper::*;
+use gradebook::types::*;
 
 fn main() {
     let mut new_class = Class::new();
